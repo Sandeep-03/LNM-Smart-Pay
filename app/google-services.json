@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1002952377661",
+    "firebase_url": "https://lnmsmartpay.firebaseio.com",
+    "project_id": "lnmsmartpay",
+    "storage_bucket": "lnmsmartpay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002952377661:android:925aa7f892f028fc",
+        "android_client_info": {
+          "package_name": "com.example.sandeep.lnmsmartpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002952377661-r0q34a06tkbajoahb11t570guo959fai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sandeep.lnmsmartpay",
+            "certificate_hash": "d659ca23b903155a9f80005635b781b8c4c40095"
+          }
+        },
+        {
+          "client_id": "1002952377661-7pkdb9492sdcuppgg3uq4j3r85bejhgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGSLLNoEd2uEjUg8GAoD2HSRkHO-oWJCg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002952377661-7pkdb9492sdcuppgg3uq4j3r85bejhgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

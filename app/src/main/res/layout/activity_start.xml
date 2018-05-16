@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sandeep.lnmsmartpay.StartActivity">
+
+    <ImageView
+        android:layout_width="259dp"
+        android:layout_height="119dp"
+        android:id="@+id/lnmiit"
+        android:background="@drawable/shape"
+        android:src="@drawable/lnmiit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hi"
+        android:layout_below="@+id/lnmiit"
+        android:layout_centerHorizontal="true"
+        android:text="hI"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textSize="77dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_below="@+id/hi"
+        android:layout_centerHorizontal="true"
+        android:text="welcome to lnm smart pay"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="#D44C20"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_below="@+id/text2"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:text="Start"/>
+
+</RelativeLayout>

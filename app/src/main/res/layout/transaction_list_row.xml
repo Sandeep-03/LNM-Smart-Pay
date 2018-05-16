@@ -1,0 +1,81 @@
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:id="@+id/card_view"
+        card_view:cardBackgroundColor="#2832aa"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="1dp"
+        app:cardMaxElevation="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hello"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="exo 2 light"
+                android:textColor="#A1003D"
+                android:id="@+id/name"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18dp"
+                android:singleLine="true"
+                android:layout_below="@id/name"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="exo 2 medium"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/des"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hey"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="exo 2 light "
+                android:id="@+id/s_r"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/02/2015"
+                android:textSize="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="exo 2 light "
+                android:id="@+id/date"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Amount"
+                android:textSize="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="7dp"
+                android:fontFamily="exo 2 light"
+                android:textColor="#261d21"
+                android:id="@+id/amount"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
